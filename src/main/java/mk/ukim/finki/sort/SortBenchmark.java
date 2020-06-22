@@ -10,7 +10,6 @@ public class SortBenchmark {
     @State(Scope.Thread)
     public static class ArrayState {
         @Param({ "10", "100", "1000", "10000", "100000", "1000000", "10000000" })
-//        @Param({ "10" })
         private int size;
 
         private int[] array;
