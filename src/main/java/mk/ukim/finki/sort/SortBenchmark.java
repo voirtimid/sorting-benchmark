@@ -5,12 +5,12 @@ import org.openjdk.jmh.annotations.*;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
-public class QuickSortBenchmark {
+public class SortBenchmark {
 
     @State(Scope.Thread)
     public static class ArrayState {
-//        @Param({ "10", "100", "1000", "10000", "100000", "1000000", "10000000" })
-        @Param({ "10" })
+        @Param({ "10", "100", "1000", "10000", "100000", "1000000", "10000000" })
+//        @Param({ "10" })
         private int size;
 
         private int[] array;
@@ -24,10 +24,6 @@ public class QuickSortBenchmark {
             }
         }
 
-        public int getSize() {
-            return size;
-        }
-
         public int[] getArray() {
             return array;
         }
@@ -36,6 +32,6 @@ public class QuickSortBenchmark {
     @Benchmark
     @OutputTimeUnit(TimeUnit.SECONDS)
     public void sort(ArrayState state) {
-        QuickSort.quickSort(state.getArray(), 0, state.getSize() - 1);
+        Sort.sort(state.getArray());
     }
 }
