@@ -1,0 +1,8 @@
+Benchmark             (size)   Mode  Cnt          Score        Error  Units
+SortBenchmark.sort        10  thrpt   25  105290138.317 ± 177314.339  ops/s
+SortBenchmark.sort       100  thrpt   25    8799775.368 ±   8392.861  ops/s
+SortBenchmark.sort      1000  thrpt   25    2892937.124 ±   4795.984  ops/s
+SortBenchmark.sort     10000  thrpt   25     314375.617 ±    796.422  ops/s
+SortBenchmark.sort    100000  thrpt   25      31670.800 ±     54.183  ops/s
+SortBenchmark.sort   1000000  thrpt   25       2040.330 ±      0.471  ops/s
+SortBenchmark.sort  10000000  thrpt   25        177.967 ±      0.795  ops/s

@@ -1,0 +1,604 @@
+# JMH version: 1.23
+# VM version: JDK 1.8.0_212, OpenJDK 64-Bit Server VM, 25.212-b04
+# VM invoker: /usr/lib/jvm/java-1.8-openjdk/jre/bin/java
+# VM options: -Xms2g -Xmx8g
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: mk.ukim.finki.sort.SortBenchmark.sort
+# Parameters: (size = 10)
+
+# Run progress: 0.00% complete, ETA 00:58:20
+# Fork: 1 of 5
+# Warmup Iteration   1: 98989901.260 ops/s
+# Warmup Iteration   2: 97184649.189 ops/s
+# Warmup Iteration   3: 92354012.948 ops/s
+# Warmup Iteration   4: 91972565.384 ops/s
+# Warmup Iteration   5: 92245968.797 ops/s
+Iteration   1: 91661269.563 ops/s
+Iteration   2: 91987809.396 ops/s
+Iteration   3: 91062438.809 ops/s
+Iteration   4: 91472710.127 ops/s
+Iteration   5: 91565635.833 ops/s
+
+# Run progress: 2.86% complete, ETA 00:56:57
+# Fork: 2 of 5
+# Warmup Iteration   1: 100083233.725 ops/s
+# Warmup Iteration   2: 92258509.586 ops/s
+# Warmup Iteration   3: 93184801.535 ops/s
+# Warmup Iteration   4: 92354740.384 ops/s
+# Warmup Iteration   5: 92395197.720 ops/s
+Iteration   1: 92702354.879 ops/s
+Iteration   2: 92453822.579 ops/s
+Iteration   3: 92671877.197 ops/s
+Iteration   4: 92482868.723 ops/s
+Iteration   5: 92369773.318 ops/s
+
+# Run progress: 5.71% complete, ETA 00:55:14
+# Fork: 3 of 5
+# Warmup Iteration   1: 100460523.606 ops/s
+# Warmup Iteration   2: 100395836.368 ops/s
+# Warmup Iteration   3: 91831218.480 ops/s
+# Warmup Iteration   4: 91708146.173 ops/s
+# Warmup Iteration   5: 91656426.876 ops/s
+Iteration   1: 91463854.911 ops/s
+Iteration   2: 91854653.907 ops/s
+Iteration   3: 91184821.059 ops/s
+Iteration   4: 91827604.139 ops/s
+Iteration   5: 91459306.952 ops/s
+
+# Run progress: 8.57% complete, ETA 00:53:33
+# Fork: 4 of 5
+# Warmup Iteration   1: 100195028.941 ops/s
+# Warmup Iteration   2: 99838251.916 ops/s
+# Warmup Iteration   3: 91909717.620 ops/s
+# Warmup Iteration   4: 91484582.487 ops/s
+# Warmup Iteration   5: 92576440.339 ops/s
+Iteration   1: 91774211.696 ops/s
+Iteration   2: 92300052.201 ops/s
+Iteration   3: 91706162.046 ops/s
+Iteration   4: 91005504.263 ops/s
+Iteration   5: 91147562.949 ops/s
+
+# Run progress: 11.43% complete, ETA 00:51:52
+# Fork: 5 of 5
+# Warmup Iteration   1: 100353149.997 ops/s
+# Warmup Iteration   2: 99872829.474 ops/s
+# Warmup Iteration   3: 92162269.058 ops/s
+# Warmup Iteration   4: 92184384.759 ops/s
+# Warmup Iteration   5: 92279113.094 ops/s
+Iteration   1: 93694500.024 ops/s
+Iteration   2: 92998796.807 ops/s
+Iteration   3: 91217359.828 ops/s
+Iteration   4: 92813828.577 ops/s
+Iteration   5: 92805745.530 ops/s
+
+
+Result "mk.ukim.finki.sort.SortBenchmark.sort":
+  91987381.013 ±(99.9%) 529864.368 ops/s [Average]
+  (min, avg, max) = (91005504.263, 91987381.013, 93694500.024), stdev = 707353.771
+  CI (99.9%): [91457516.645, 92517245.380] (assumes normal distribution)
+
+
+# JMH version: 1.23
+# VM version: JDK 1.8.0_212, OpenJDK 64-Bit Server VM, 25.212-b04
+# VM invoker: /usr/lib/jvm/java-1.8-openjdk/jre/bin/java
+# VM options: -Xms2g -Xmx8g
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: mk.ukim.finki.sort.SortBenchmark.sort
+# Parameters: (size = 100)
+
+# Run progress: 14.29% complete, ETA 00:50:12
+# Fork: 1 of 5
+# Warmup Iteration   1: 8115593.607 ops/s
+# Warmup Iteration   2: 8137897.341 ops/s
+# Warmup Iteration   3: 8131091.155 ops/s
+# Warmup Iteration   4: 8124998.289 ops/s
+# Warmup Iteration   5: 8134707.520 ops/s
+Iteration   1: 8118044.219 ops/s
+Iteration   2: 8135704.173 ops/s
+Iteration   3: 8107701.584 ops/s
+Iteration   4: 8099082.543 ops/s
+Iteration   5: 8093382.318 ops/s
+
+# Run progress: 17.14% complete, ETA 00:48:31
+# Fork: 2 of 5
+# Warmup Iteration   1: 8137974.501 ops/s
+# Warmup Iteration   2: 8145430.556 ops/s
+# Warmup Iteration   3: 8087978.865 ops/s
+# Warmup Iteration   4: 8088955.521 ops/s
+# Warmup Iteration   5: 8167671.770 ops/s
+Iteration   1: 8127741.759 ops/s
+Iteration   2: 8068108.164 ops/s
+Iteration   3: 8076871.866 ops/s
+Iteration   4: 8075885.799 ops/s
+Iteration   5: 8033635.687 ops/s
+
+# Run progress: 20.00% complete, ETA 00:46:51
+# Fork: 3 of 5
+# Warmup Iteration   1: 8114681.554 ops/s
+# Warmup Iteration   2: 8130344.148 ops/s
+# Warmup Iteration   3: 8082988.574 ops/s
+# Warmup Iteration   4: 8071036.082 ops/s
+# Warmup Iteration   5: 8046716.671 ops/s
+Iteration   1: 8077597.895 ops/s
+Iteration   2: 8106237.332 ops/s
+Iteration   3: 8061076.384 ops/s
+Iteration   4: 8061252.695 ops/s
+Iteration   5: 8028415.766 ops/s
+
+# Run progress: 22.86% complete, ETA 00:45:10
+# Fork: 4 of 5
+# Warmup Iteration   1: 8138360.992 ops/s
+# Warmup Iteration   2: 8148499.063 ops/s
+# Warmup Iteration   3: 8109650.397 ops/s
+# Warmup Iteration   4: 8113986.986 ops/s
+# Warmup Iteration   5: 8078093.666 ops/s
+Iteration   1: 8064678.924 ops/s
+Iteration   2: 8107221.039 ops/s
+Iteration   3: 8065332.038 ops/s
+Iteration   4: 8054540.809 ops/s
+Iteration   5: 8083502.551 ops/s
+
+# Run progress: 25.71% complete, ETA 00:43:30
+# Fork: 5 of 5
+# Warmup Iteration   1: 8157636.059 ops/s
+# Warmup Iteration   2: 8116806.554 ops/s
+# Warmup Iteration   3: 8122139.974 ops/s
+# Warmup Iteration   4: 8113110.540 ops/s
+# Warmup Iteration   5: 8211894.755 ops/s
+Iteration   1: 8171459.534 ops/s
+Iteration   2: 8104154.003 ops/s
+Iteration   3: 8106055.168 ops/s
+Iteration   4: 8107044.686 ops/s
+Iteration   5: 8049727.457 ops/s
+
+
+Result "mk.ukim.finki.sort.SortBenchmark.sort":
+  8087378.176 ±(99.9%) 24791.403 ops/s [Average]
+  (min, avg, max) = (8028415.766, 8087378.176, 8171459.534), stdev = 33095.814
+  CI (99.9%): [8062586.772, 8112169.579] (assumes normal distribution)
+
+
+# JMH version: 1.23
+# VM version: JDK 1.8.0_212, OpenJDK 64-Bit Server VM, 25.212-b04
+# VM invoker: /usr/lib/jvm/java-1.8-openjdk/jre/bin/java
+# VM options: -Xms2g -Xmx8g
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: mk.ukim.finki.sort.SortBenchmark.sort
+# Parameters: (size = 1000)
+
+# Run progress: 28.57% complete, ETA 00:41:49
+# Fork: 1 of 5
+# Warmup Iteration   1: 1818845.832 ops/s
+# Warmup Iteration   2: 1881557.876 ops/s
+# Warmup Iteration   3: 1854743.904 ops/s
+# Warmup Iteration   4: 1881307.401 ops/s
+# Warmup Iteration   5: 1870404.151 ops/s
+Iteration   1: 1871573.750 ops/s
+Iteration   2: 1881923.175 ops/s
+Iteration   3: 1871710.704 ops/s
+Iteration   4: 1871814.940 ops/s
+Iteration   5: 1873121.101 ops/s
+
+# Run progress: 31.43% complete, ETA 00:40:09
+# Fork: 2 of 5
+# Warmup Iteration   1: 1818068.273 ops/s
+# Warmup Iteration   2: 1854826.867 ops/s
+# Warmup Iteration   3: 1850671.976 ops/s
+# Warmup Iteration   4: 1859106.321 ops/s
+# Warmup Iteration   5: 1870648.863 ops/s
+Iteration   1: 1877716.782 ops/s
+Iteration   2: 1871749.789 ops/s
+Iteration   3: 1876060.016 ops/s
+Iteration   4: 1863948.856 ops/s
+Iteration   5: 1869529.620 ops/s
+
+# Run progress: 34.29% complete, ETA 00:38:29
+# Fork: 3 of 5
+# Warmup Iteration   1: 1821997.650 ops/s
+# Warmup Iteration   2: 1885579.647 ops/s
+# Warmup Iteration   3: 1858312.724 ops/s
+# Warmup Iteration   4: 1845887.103 ops/s
+# Warmup Iteration   5: 1861482.323 ops/s
+Iteration   1: 1831563.854 ops/s
+Iteration   2: 1846858.235 ops/s
+Iteration   3: 1828829.026 ops/s
+Iteration   4: 1854729.100 ops/s
+Iteration   5: 1855917.514 ops/s
+
+# Run progress: 37.14% complete, ETA 00:36:48
+# Fork: 4 of 5
+# Warmup Iteration   1: 1792911.818 ops/s
+# Warmup Iteration   2: 1811457.627 ops/s
+# Warmup Iteration   3: 1869265.799 ops/s
+# Warmup Iteration   4: 1872771.955 ops/s
+# Warmup Iteration   5: 1873622.952 ops/s
+Iteration   1: 1871537.251 ops/s
+Iteration   2: 1875101.813 ops/s
+Iteration   3: 1789761.622 ops/s
+Iteration   4: 1854600.566 ops/s
+Iteration   5: 1865214.207 ops/s
+
+# Run progress: 40.00% complete, ETA 00:35:08
+# Fork: 5 of 5
+# Warmup Iteration   1: 1816535.085 ops/s
+# Warmup Iteration   2: 1874040.775 ops/s
+# Warmup Iteration   3: 1879626.747 ops/s
+# Warmup Iteration   4: 1879293.191 ops/s
+# Warmup Iteration   5: 1861778.137 ops/s
+Iteration   1: 1879672.859 ops/s
+Iteration   2: 1877096.875 ops/s
+Iteration   3: 1873464.213 ops/s
+Iteration   4: 1878701.476 ops/s
+Iteration   5: 1875321.954 ops/s
+
+
+Result "mk.ukim.finki.sort.SortBenchmark.sort":
+  1863500.772 ±(99.9%) 15568.446 ops/s [Average]
+  (min, avg, max) = (1789761.622, 1863500.772, 1881923.175), stdev = 20783.429
+  CI (99.9%): [1847932.326, 1879069.217] (assumes normal distribution)
+
+
+# JMH version: 1.23
+# VM version: JDK 1.8.0_212, OpenJDK 64-Bit Server VM, 25.212-b04
+# VM invoker: /usr/lib/jvm/java-1.8-openjdk/jre/bin/java
+# VM options: -Xms2g -Xmx8g
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: mk.ukim.finki.sort.SortBenchmark.sort
+# Parameters: (size = 10000)
+
+# Run progress: 42.86% complete, ETA 00:33:28
+# Fork: 1 of 5
+# Warmup Iteration   1: 192061.680 ops/s
+# Warmup Iteration   2: 199044.288 ops/s
+# Warmup Iteration   3: 198336.553 ops/s
+# Warmup Iteration   4: 196954.680 ops/s
+# Warmup Iteration   5: 196468.874 ops/s
+Iteration   1: 198024.742 ops/s
+Iteration   2: 195671.529 ops/s
+Iteration   3: 196876.424 ops/s
+Iteration   4: 197045.678 ops/s
+Iteration   5: 197295.148 ops/s
+
+# Run progress: 45.71% complete, ETA 00:31:47
+# Fork: 2 of 5
+# Warmup Iteration   1: 191194.804 ops/s
+# Warmup Iteration   2: 197060.692 ops/s
+# Warmup Iteration   3: 197892.129 ops/s
+# Warmup Iteration   4: 195075.148 ops/s
+# Warmup Iteration   5: 197410.291 ops/s
+Iteration   1: 197073.233 ops/s
+Iteration   2: 193245.754 ops/s
+Iteration   3: 197187.017 ops/s
+Iteration   4: 197743.037 ops/s
+Iteration   5: 197148.393 ops/s
+
+# Run progress: 48.57% complete, ETA 00:30:07
+# Fork: 3 of 5
+# Warmup Iteration   1: 191311.215 ops/s
+# Warmup Iteration   2: 196915.294 ops/s
+# Warmup Iteration   3: 197645.776 ops/s
+# Warmup Iteration   4: 197921.872 ops/s
+# Warmup Iteration   5: 196752.970 ops/s
+Iteration   1: 196358.938 ops/s
+Iteration   2: 195443.707 ops/s
+Iteration   3: 196505.420 ops/s
+Iteration   4: 197081.210 ops/s
+Iteration   5: 197252.026 ops/s
+
+# Run progress: 51.43% complete, ETA 00:28:26
+# Fork: 4 of 5
+# Warmup Iteration   1: 191102.965 ops/s
+# Warmup Iteration   2: 196604.867 ops/s
+# Warmup Iteration   3: 197255.811 ops/s
+# Warmup Iteration   4: 196965.714 ops/s
+# Warmup Iteration   5: 197099.587 ops/s
+Iteration   1: 197272.449 ops/s
+Iteration   2: 197599.272 ops/s
+Iteration   3: 198537.882 ops/s
+Iteration   4: 197813.454 ops/s
+Iteration   5: 197312.184 ops/s
+
+# Run progress: 54.29% complete, ETA 00:26:46
+# Fork: 5 of 5
+# Warmup Iteration   1: 191387.548 ops/s
+# Warmup Iteration   2: 197522.873 ops/s
+# Warmup Iteration   3: 197524.854 ops/s
+# Warmup Iteration   4: 195518.306 ops/s
+# Warmup Iteration   5: 196781.276 ops/s
+Iteration   1: 196919.521 ops/s
+Iteration   2: 196422.984 ops/s
+Iteration   3: 197679.748 ops/s
+Iteration   4: 197293.995 ops/s
+Iteration   5: 196577.067 ops/s
+
+
+Result "mk.ukim.finki.sort.SortBenchmark.sort":
+  196935.233 ±(99.9%) 769.031 ops/s [Average]
+  (min, avg, max) = (193245.754, 196935.233, 198537.882), stdev = 1026.634
+  CI (99.9%): [196166.202, 197704.264] (assumes normal distribution)
+
+
+# JMH version: 1.23
+# VM version: JDK 1.8.0_212, OpenJDK 64-Bit Server VM, 25.212-b04
+# VM invoker: /usr/lib/jvm/java-1.8-openjdk/jre/bin/java
+# VM options: -Xms2g -Xmx8g
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: mk.ukim.finki.sort.SortBenchmark.sort
+# Parameters: (size = 100000)
+
+# Run progress: 57.14% complete, ETA 00:25:06
+# Fork: 1 of 5
+# Warmup Iteration   1: 19443.891 ops/s
+# Warmup Iteration   2: 19560.865 ops/s
+# Warmup Iteration   3: 19729.696 ops/s
+# Warmup Iteration   4: 19652.498 ops/s
+# Warmup Iteration   5: 19723.830 ops/s
+Iteration   1: 19624.582 ops/s
+Iteration   2: 19710.632 ops/s
+Iteration   3: 19639.692 ops/s
+Iteration   4: 19688.454 ops/s
+Iteration   5: 19701.115 ops/s
+
+# Run progress: 60.00% complete, ETA 00:23:25
+# Fork: 2 of 5
+# Warmup Iteration   1: 27135.086 ops/s
+# Warmup Iteration   2: 27428.205 ops/s
+# Warmup Iteration   3: 27476.111 ops/s
+# Warmup Iteration   4: 27471.314 ops/s
+# Warmup Iteration   5: 27470.530 ops/s
+Iteration   1: 27475.563 ops/s
+Iteration   2: 27745.217 ops/s
+Iteration   3: 27551.821 ops/s
+Iteration   4: 27548.092 ops/s
+Iteration   5: 27546.300 ops/s
+
+# Run progress: 62.86% complete, ETA 00:21:45
+# Fork: 3 of 5
+# Warmup Iteration   1: 27229.087 ops/s
+# Warmup Iteration   2: 27440.367 ops/s
+# Warmup Iteration   3: 27465.049 ops/s
+# Warmup Iteration   4: 27333.941 ops/s
+# Warmup Iteration   5: 27544.275 ops/s
+Iteration   1: 27361.167 ops/s
+Iteration   2: 27391.035 ops/s
+Iteration   3: 27410.540 ops/s
+Iteration   4: 27612.330 ops/s
+Iteration   5: 27459.690 ops/s
+
+# Run progress: 65.71% complete, ETA 00:20:04
+# Fork: 4 of 5
+# Warmup Iteration   1: 27156.531 ops/s
+# Warmup Iteration   2: 27466.707 ops/s
+# Warmup Iteration   3: 27405.509 ops/s
+# Warmup Iteration   4: 27345.221 ops/s
+# Warmup Iteration   5: 27447.651 ops/s
+Iteration   1: 27275.279 ops/s
+Iteration   2: 27433.384 ops/s
+Iteration   3: 27560.693 ops/s
+Iteration   4: 27747.556 ops/s
+Iteration   5: 27523.132 ops/s
+
+# Run progress: 68.57% complete, ETA 00:18:24
+# Fork: 5 of 5
+# Warmup Iteration   1: 27122.757 ops/s
+# Warmup Iteration   2: 27357.698 ops/s
+# Warmup Iteration   3: 27494.726 ops/s
+# Warmup Iteration   4: 27398.565 ops/s
+# Warmup Iteration   5: 27419.709 ops/s
+Iteration   1: 27398.789 ops/s
+Iteration   2: 27586.358 ops/s
+Iteration   3: 27627.883 ops/s
+Iteration   4: 27670.655 ops/s
+Iteration   5: 27405.987 ops/s
+
+
+Result "mk.ukim.finki.sort.SortBenchmark.sort":
+  25947.838 ±(99.9%) 2400.210 ops/s [Average]
+  (min, avg, max) = (19624.582, 25947.838, 27747.556), stdev = 3204.211
+  CI (99.9%): [23547.628, 28348.048] (assumes normal distribution)
+
+
+# JMH version: 1.23
+# VM version: JDK 1.8.0_212, OpenJDK 64-Bit Server VM, 25.212-b04
+# VM invoker: /usr/lib/jvm/java-1.8-openjdk/jre/bin/java
+# VM options: -Xms2g -Xmx8g
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: mk.ukim.finki.sort.SortBenchmark.sort
+# Parameters: (size = 1000000)
+
+# Run progress: 71.43% complete, ETA 00:16:44
+# Fork: 1 of 5
+# Warmup Iteration   1: 1361.335 ops/s
+# Warmup Iteration   2: 1382.180 ops/s
+# Warmup Iteration   3: 1383.887 ops/s
+# Warmup Iteration   4: 1376.417 ops/s
+# Warmup Iteration   5: 1391.069 ops/s
+Iteration   1: 1390.016 ops/s
+Iteration   2: 1391.872 ops/s
+Iteration   3: 1382.676 ops/s
+Iteration   4: 1387.751 ops/s
+Iteration   5: 1381.299 ops/s
+
+# Run progress: 74.29% complete, ETA 00:15:03
+# Fork: 2 of 5
+# Warmup Iteration   1: 1360.680 ops/s
+# Warmup Iteration   2: 1388.633 ops/s
+# Warmup Iteration   3: 1398.829 ops/s
+# Warmup Iteration   4: 1389.999 ops/s
+# Warmup Iteration   5: 1396.518 ops/s
+Iteration   1: 1383.209 ops/s
+Iteration   2: 1393.548 ops/s
+Iteration   3: 1391.678 ops/s
+Iteration   4: 1399.745 ops/s
+Iteration   5: 1409.877 ops/s
+
+# Run progress: 77.14% complete, ETA 00:13:23
+# Fork: 3 of 5
+# Warmup Iteration   1: 1365.989 ops/s
+# Warmup Iteration   2: 1394.040 ops/s
+# Warmup Iteration   3: 1381.693 ops/s
+# Warmup Iteration   4: 1377.524 ops/s
+# Warmup Iteration   5: 1403.801 ops/s
+Iteration   1: 1398.568 ops/s
+Iteration   2: 1375.032 ops/s
+Iteration   3: 1405.070 ops/s
+Iteration   4: 1416.037 ops/s
+Iteration   5: 1408.312 ops/s
+
+# Run progress: 80.00% complete, ETA 00:11:42
+# Fork: 4 of 5
+# Warmup Iteration   1: 1379.083 ops/s
+# Warmup Iteration   2: 1407.047 ops/s
+# Warmup Iteration   3: 1408.820 ops/s
+# Warmup Iteration   4: 1399.805 ops/s
+# Warmup Iteration   5: 1406.528 ops/s
+Iteration   1: 1408.397 ops/s
+Iteration   2: 1409.332 ops/s
+Iteration   3: 1401.308 ops/s
+Iteration   4: 1405.857 ops/s
+Iteration   5: 1403.856 ops/s
+
+# Run progress: 82.86% complete, ETA 00:10:02
+# Fork: 5 of 5
+# Warmup Iteration   1: 1369.026 ops/s
+# Warmup Iteration   2: 1397.104 ops/s
+# Warmup Iteration   3: 1405.964 ops/s
+# Warmup Iteration   4: 1400.817 ops/s
+# Warmup Iteration   5: 1404.769 ops/s
+Iteration   1: 1400.601 ops/s
+Iteration   2: 1401.868 ops/s
+Iteration   3: 1398.844 ops/s
+Iteration   4: 1401.355 ops/s
+Iteration   5: 1399.027 ops/s
+
+
+Result "mk.ukim.finki.sort.SortBenchmark.sort":
+  1397.805 ±(99.9%) 7.690 ops/s [Average]
+  (min, avg, max) = (1375.032, 1397.805, 1416.037), stdev = 10.266
+  CI (99.9%): [1390.115, 1405.496] (assumes normal distribution)
+
+
+# JMH version: 1.23
+# VM version: JDK 1.8.0_212, OpenJDK 64-Bit Server VM, 25.212-b04
+# VM invoker: /usr/lib/jvm/java-1.8-openjdk/jre/bin/java
+# VM options: -Xms2g -Xmx8g
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: mk.ukim.finki.sort.SortBenchmark.sort
+# Parameters: (size = 10000000)
+
+# Run progress: 85.71% complete, ETA 00:08:22
+# Fork: 1 of 5
+# Warmup Iteration   1: 111.333 ops/s
+# Warmup Iteration   2: 129.031 ops/s
+# Warmup Iteration   3: 129.044 ops/s
+# Warmup Iteration   4: 127.820 ops/s
+# Warmup Iteration   5: 129.004 ops/s
+Iteration   1: 128.804 ops/s
+Iteration   2: 128.895 ops/s
+Iteration   3: 129.155 ops/s
+Iteration   4: 129.110 ops/s
+Iteration   5: 128.982 ops/s
+
+# Run progress: 88.57% complete, ETA 00:06:41
+# Fork: 2 of 5
+# Warmup Iteration   1: 110.814 ops/s
+# Warmup Iteration   2: 128.835 ops/s
+# Warmup Iteration   3: 129.124 ops/s
+# Warmup Iteration   4: 128.609 ops/s
+# Warmup Iteration   5: 129.145 ops/s
+Iteration   1: 128.933 ops/s
+Iteration   2: 129.193 ops/s
+Iteration   3: 129.412 ops/s
+Iteration   4: 129.051 ops/s
+Iteration   5: 128.952 ops/s
+
+# Run progress: 91.43% complete, ETA 00:05:01
+# Fork: 3 of 5
+# Warmup Iteration   1: 110.613 ops/s
+# Warmup Iteration   2: 128.616 ops/s
+# Warmup Iteration   3: 129.000 ops/s
+# Warmup Iteration   4: 127.409 ops/s
+# Warmup Iteration   5: 127.951 ops/s
+Iteration   1: 126.892 ops/s
+Iteration   2: 127.095 ops/s
+Iteration   3: 127.373 ops/s
+Iteration   4: 126.947 ops/s
+Iteration   5: 126.860 ops/s
+
+# Run progress: 94.29% complete, ETA 00:03:20
+# Fork: 4 of 5
+# Warmup Iteration   1: 106.712 ops/s
+# Warmup Iteration   2: 126.416 ops/s
+# Warmup Iteration   3: 127.764 ops/s
+# Warmup Iteration   4: 126.877 ops/s
+# Warmup Iteration   5: 127.843 ops/s
+Iteration   1: 127.101 ops/s
+Iteration   2: 128.014 ops/s
+Iteration   3: 127.496 ops/s
+Iteration   4: 128.664 ops/s
+Iteration   5: 128.446 ops/s
+
+# Run progress: 97.14% complete, ETA 00:01:40
+# Fork: 5 of 5
+# Warmup Iteration   1: 110.838 ops/s
+# Warmup Iteration   2: 126.716 ops/s
+# Warmup Iteration   3: 127.486 ops/s
+# Warmup Iteration   4: 127.315 ops/s
+# Warmup Iteration   5: 127.784 ops/s
+Iteration   1: 126.605 ops/s
+Iteration   2: 127.692 ops/s
+Iteration   3: 126.669 ops/s
+Iteration   4: 127.825 ops/s
+Iteration   5: 125.446 ops/s
+
+
+Result "mk.ukim.finki.sort.SortBenchmark.sort":
+  127.985 ±(99.9%) 0.812 ops/s [Average]
+  (min, avg, max) = (125.446, 127.985, 129.412), stdev = 1.084
+  CI (99.9%): [127.173, 128.796] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:58:35
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark             (size)   Mode  Cnt         Score        Error  Units
+SortBenchmark.sort        10  thrpt   25  91987381.013 ± 529864.368  ops/s
+SortBenchmark.sort       100  thrpt   25   8087378.176 ±  24791.403  ops/s
+SortBenchmark.sort      1000  thrpt   25   1863500.772 ±  15568.446  ops/s
+SortBenchmark.sort     10000  thrpt   25    196935.233 ±    769.031  ops/s
+SortBenchmark.sort    100000  thrpt   25     25947.838 ±   2400.210  ops/s
+SortBenchmark.sort   1000000  thrpt   25      1397.805 ±      7.690  ops/s
+SortBenchmark.sort  10000000  thrpt   25       127.985 ±      0.812  ops/s
