@@ -1,0 +1,40 @@
+# Run complete. Total time: 04:18:58
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark             (size)   Mode  Cnt          Score        Error  Units
+SortBenchmark.sort        10  thrpt   25  108255272.907 ± 489211.495  ops/s
+SortBenchmark.sort        20  thrpt   25   73029682.762 ± 828543.887  ops/s
+SortBenchmark.sort        40  thrpt   25   51967043.888 ±  29197.201  ops/s
+SortBenchmark.sort        60  thrpt   25   13108930.614 ±  17312.527  ops/s
+SortBenchmark.sort        80  thrpt   25   11524393.332 ±  15404.250  ops/s
+SortBenchmark.sort       100  thrpt   25   10031681.836 ±  15767.227  ops/s
+SortBenchmark.sort       200  thrpt   25    3092849.377 ± 117800.298  ops/s
+SortBenchmark.sort       400  thrpt   25    6724996.979 ±   3232.279  ops/s
+SortBenchmark.sort       600  thrpt   25    4565196.041 ±   9127.986  ops/s
+SortBenchmark.sort       800  thrpt   25    3535407.820 ±  10443.205  ops/s
+SortBenchmark.sort      1000  thrpt   25    2902334.778 ±   2951.989  ops/s
+SortBenchmark.sort      2000  thrpt   25    1625728.196 ±  68290.578  ops/s
+SortBenchmark.sort      4000  thrpt   25     795620.407 ±  29208.543  ops/s
+SortBenchmark.sort      6000  thrpt   25     572228.487 ±  19692.859  ops/s
+SortBenchmark.sort      8000  thrpt   25     411109.199 ±  17904.347  ops/s
+SortBenchmark.sort     10000  thrpt   25     313750.477 ±    696.330  ops/s
+SortBenchmark.sort     20000  thrpt   25     158008.015 ±    157.126  ops/s
+SortBenchmark.sort     40000  thrpt   25      79260.706 ±     61.113  ops/s
+SortBenchmark.sort     60000  thrpt   25      52858.143 ±     83.685  ops/s
+SortBenchmark.sort     80000  thrpt   25      39616.146 ±     84.976  ops/s
+SortBenchmark.sort    100000  thrpt   25      31651.941 ±     54.705  ops/s
+SortBenchmark.sort    200000  thrpt   25      15522.694 ±    495.279  ops/s
+SortBenchmark.sort    400000  thrpt   25      10071.230 ±     21.945  ops/s
+SortBenchmark.sort    600000  thrpt   25       5158.862 ±    614.554  ops/s
+SortBenchmark.sort    800000  thrpt   25       3308.295 ±     98.579  ops/s
+SortBenchmark.sort   1000000  thrpt   25       2595.890 ±      0.437  ops/s
+SortBenchmark.sort   2000000  thrpt   25       1295.349 ±      0.295  ops/s
+SortBenchmark.sort   4000000  thrpt   25        621.589 ±      0.689  ops/s
+SortBenchmark.sort   6000000  thrpt   25        375.612 ±      0.797  ops/s
+SortBenchmark.sort   8000000  thrpt   25        263.434 ±      0.397  ops/s
+SortBenchmark.sort  10000000  thrpt   25        206.470 ±      0.170  ops/s
